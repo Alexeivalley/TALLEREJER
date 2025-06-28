@@ -8,6 +8,7 @@ int main(){
     int opcion;
     struct Estudiante Students[10];
     int Cont = 0;
+    int ID;
     int CantEstudiantes = 0;
     bool Encontrado = false;
 
@@ -36,7 +37,6 @@ int main(){
             }
             break;
         case 3:
-            int ID;
             cout << "Ingrese el ID para encontrar al estudiante" << endl;
             cin >> ID;
 
