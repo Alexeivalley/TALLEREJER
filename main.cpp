@@ -6,7 +6,7 @@ Estudiante es;
 int main(){
 
     int opcion;
-    struct Estudiante Students[10];
+    Estudiante Students[10];
     int Cont = 0;
     int ID;
     int CantEstudiantes = 0;
