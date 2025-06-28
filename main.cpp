@@ -51,6 +51,7 @@ int main(){
             if (!Encontrado) {
                 cout << "No se encontro el ID" << endl;
             }
+            Encontrado = false;
             cout << endl;
             break;
         default:
