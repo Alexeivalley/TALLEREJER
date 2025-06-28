@@ -9,7 +9,6 @@ int main(){
     struct Estudiante Students[10];
     int Cont = 0;
     int CantEstudiantes = 0;
-    int ID;
     bool Encontrado = false;
 
     cout << "Bienvenido al colegio Julio Cesar" << endl;
