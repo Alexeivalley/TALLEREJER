@@ -37,8 +37,6 @@ int main(){
             }
             break;
         case 3:
-            cout << "Ingrese el ID para encontrar al estudiante" << endl;
-            cin >> ID;
 
             for (int i = 0; i < CantEstudiantes; i++) {
                 if (ID == Students[i].ID) {  // ← Comparar con el arreglo correctamente
